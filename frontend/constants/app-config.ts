@@ -1,11 +1,11 @@
-import { clusterApiUrl } from '@solana/web3.js'
 import { Cluster } from '@/components/cluster/cluster'
 import { ClusterNetwork } from '@/components/cluster/cluster-network'
+import { clusterApiUrl } from '@solana/web3.js'
 
 export class AppConfig {
   static name = 'frontend'
   static uri = 'https://example.com'
-  static apiBaseUrl: 'http://10.0.2.2:8000'
+  static apiBaseUrl= 'https://pawlana.vercel.app/'
   static clusters: Cluster[] = [
     {
       id: 'solana:devnet',
