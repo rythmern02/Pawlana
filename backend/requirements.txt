@@ -9,5 +9,5 @@ openai
 supabase
 openai
 thinker
-jwt
+pyjwt
 
