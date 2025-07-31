@@ -9,8 +9,6 @@ openai
 supabase
 asyncio
 openai
-os
-dotenv
 typing
 thinker
 jwt
