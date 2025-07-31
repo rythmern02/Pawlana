@@ -36,8 +36,8 @@ async def thinker_loop(supabase):
 
         except Exception as e:
             print("❌ Thinker error:", e)
-
-        await asyncio.sleep(3600)  # 1-hour interval
+            
+        break # 1-hour interval
 
 # Entry point
 def start_pet_thinker(app, supabase):

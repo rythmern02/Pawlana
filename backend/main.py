@@ -58,3 +58,4 @@ app.include_router(pet_router, prefix="/pet")
 app.include_router(wallet_auth_router)
 # ✅ Start thinker
 start_pet_thinker(app, supabase)
+

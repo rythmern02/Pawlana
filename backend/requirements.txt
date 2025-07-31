@@ -7,7 +7,6 @@ aiofiles
 python-dotenv
 openai
 supabase
-asyncio
 openai
 thinker
 jwt
