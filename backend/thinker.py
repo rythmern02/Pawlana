@@ -1,6 +1,5 @@
 # thinker.py
 
-import asyncio
 import os
 from openai import OpenAI
 
@@ -40,7 +39,7 @@ async def thinker_loop(supabase):
         break # 1-hour interval
 
 # Entry point
-def start_pet_thinker(app, supabase):
-    @app.on_event("startup")
-    async def launch_thinker():
-        asyncio.create_task(thinker_loop(supabase))
+# def start_pet_thinker(app, supabase):
+#     @app.on_event("startup")
+#     async def launch_thinker():
+#         asyncio.create_task(thinker_loop(supabase))

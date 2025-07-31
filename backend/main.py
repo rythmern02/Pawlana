@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 
 from supabase_client import supabase
 from pet_routes import router as pet_router
-from thinker import start_pet_thinker
 from wallet_auth import router as wallet_auth_router
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -57,5 +56,7 @@ async def read_root():
 app.include_router(pet_router, prefix="/pet")
 app.include_router(wallet_auth_router)
 # ✅ Start thinker
-start_pet_thinker(app, supabase)
+# start_pet_thinker(app, supabase)
+
+
 
