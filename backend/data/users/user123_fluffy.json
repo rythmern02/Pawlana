@@ -1,0 +1,12 @@
+{
+    "user_id": "user123",
+    "pet_id": "fluffy",
+    "name": "Fluffy",
+    "type": "dog",
+    "traits": ["playful", "loyal"],
+    "commands": ["sit", "roll"],
+    "history": [],
+    "personality_updates": [],
+    "trained_words": []
+  }
+  

@@ -1,0 +1,6 @@
+{
+  "name": "Fluffy",
+  "type": "dog",
+  "traits": ["playful", "loyal", "silly"],
+  "commands": ["sit", "roll", "fetch"]
+}
