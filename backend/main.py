@@ -47,6 +47,12 @@ def get_current_user(
     except jwt.PyJWTError as e:
         raise HTTPException(401, f"Invalid token: {str(e)}")
 
+@app.get("/", tags=["Root"])
+async def read_root():
+  return { 
+    "message": "Welcome to my notes application, use the /docs route to proceed"
+   }
+
 # ✅ Route registration (no global Depends)
 app.include_router(pet_router, prefix="/pet")
 app.include_router(wallet_auth_router)

@@ -6,3 +6,12 @@ pydantic
 aiofiles
 python-dotenv
 openai
+supabase
+asyncio
+openai
+os
+dotenv
+typing
+thinker
+jwt
+
